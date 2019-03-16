@@ -8,6 +8,10 @@ and open diagram. "save" commits back to github.
 transaction-sequence-diagram.svg
 ![Diagram](./transaction-sequence-diagram.svg)
 
+## corresponding class diagram
+![Diagram](./BlockBuilderClasses.svg)
+
+
 # Architecture
 
 ## Service
@@ -20,3 +24,7 @@ to learn more, study [these lines](https://github.com/paritytech/substrate/blob/
 ## Full Client
 Components of a full client
 ![Diagram](./FullComponents.svg)
+
+## Consensus
+### Aura
+![Diagram](./AuraConsensusClasses.svg)
