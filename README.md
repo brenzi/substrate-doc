@@ -4,6 +4,7 @@ Documentation for substrate
 to edit with draw.io go to https://www.draw.io/?mode=github
 and open diagram. "save" commits back to github.
 
+
 # Transaction lifetime 
 transaction-sequence-diagram.svg
 ![Diagram](./transaction-sequence-diagram.svg)
@@ -25,6 +26,13 @@ to learn more, study [these lines](https://github.com/paritytech/substrate/blob/
 Components of a full client
 ![Diagram](./FullComponents.svg)
 
-## Consensus
-### Aura
+# Blockchain Data Model
+![Diagram](./BlockchainDataModel.svg)
+
+# Consensus
+## Aura
 ![Diagram](./AuraConsensusClasses.svg)
+
+# SRML
+All modules involved in Gav's coin flipping demo
+![Diagram](./SRMLmodules.svg)
