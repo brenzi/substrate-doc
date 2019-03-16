@@ -37,6 +37,14 @@ TODO: light client components
 
 # Consensus
 ## Aura
+Aura takes fixed turns to propose a new block.
+
+only the authority who's turn it is proposes a new block
+
+slot duration is a fixed number of seconds, to be evaluated on the autorities machines' time.
+
+the slot proposer broadcasts his block, the others validate and import it and gossip about what they do.
+
 ![Diagram](./AuraConsensusClasses.svg)
 
 TODO: compress diagram area
