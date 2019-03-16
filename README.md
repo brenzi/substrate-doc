@@ -10,6 +10,8 @@ What happens with a transaction when it is passed through RPC until it is includ
 
 ![Diagram](./transaction-sequence-diagram.svg)
 
+* [x] reviewed by @shawntabrizi / @bkchr / @thomusdrw
+
 ## corresponding class diagram
 ![Diagram](./BlockBuilderClasses.svg)
 
