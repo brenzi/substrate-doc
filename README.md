@@ -30,7 +30,12 @@ to learn more, study [these lines](https://github.com/paritytech/substrate/blob/
 Components of a full client
 ![Diagram](./FullComponents.svg)
 
-TODO: light client components
+## Light Client
+TODO: light client components diagram
+
+study `core/client/src/light/fetcher.rs` 
+https://substrate.dev/rustdocs/v1.0/substrate_client/light/fetcher/trait.FetchChecker.html#tymethod.check_read_proof
+
 
 # Blockchain Data Model
 ![Diagram](./BlockchainDataModel.svg)
